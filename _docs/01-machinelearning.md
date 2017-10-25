@@ -20,3 +20,5 @@ machine learning is...
 1. 데이터 수집
 1. 데이터 가공
 1. 데이터 학습
+1. test
+1. good job
