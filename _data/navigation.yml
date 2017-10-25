@@ -1,12 +1,15 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "AI"
+    url: /docs/ai/ml/
+
+# documentation links
+docs:
+  - title: Machine Learning
+    children:
+      - title: "Introduce"
+        url: /docs/ai/ml/
+      - title: "scipy"
+        url: /docs/ai/ml/scipy/
+  - title: Deep Learning
+
