@@ -1,5 +1,5 @@
 ---
-title: "deep learning"
+title: "Deep Learning"
 permalink: /docs/ai/dl/
 excerpt: ""
 redirect_from:

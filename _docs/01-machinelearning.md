@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning?"
+title: "Machine Learning"
 permalink: /docs/ai/ml/
 excerpt: "개요"
 redirect_from:
