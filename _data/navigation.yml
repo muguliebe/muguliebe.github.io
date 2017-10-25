@@ -7,9 +7,11 @@ main:
 docs:
   - title: Machine Learning
     children:
-      - title: "Introduce"
+      - title: "ml"
         url: /docs/ai/ml/
-      - title: "scipy"
-        url: /docs/ai/ml/scipy/
   - title: Deep Learning
+    children:
+      - title: "dl"
+        url: /docs/ai/dl/
+
 
