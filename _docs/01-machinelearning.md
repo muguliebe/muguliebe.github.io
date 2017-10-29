@@ -26,13 +26,20 @@ machine learning is...
 ### 4-5~4-7
 #### <참고자료>
 * [SVM에 대한 자세한 내용](https://ko.wikipedia.org/wiki/%EC%84%9C%ED%8F%AC%ED%8A%B8_%EB%B2%A1%ED%84%B0_%EB%A8%B8%EC%8B%A0) (참고:[평면의 방정식](http://showmiso.tistory.com/62))
-* 머신러닝의 모델 성능에 대한 지표로 precision, recall, f1-score, support 가 사용된다.
+* [SVM 강의](https://www.youtube.com/watch?v=_PwhiWxHK8o) (19분까지는 margin을 수학적으로 구하는 방법, 그 이후로는 초평면을 찾는 과정)
+* 머신러닝의 모델 성능에 대한 지표로 accuracy, precision, recall, f1-score, support 가 사용된다.
 
 >TERMS:
->  * True Positive(TP) : True인데 True라고 맞춘 경우 (맞음)
->  * False Positive(FP) : False인데 True라고 한 경우 (틀림)
->  * True Negative(TN) : False인데 False라고 한 경우 (맞음)
->  * False Negative(FN) : True인데 False라고 한 경우 (틀림)
+>  * **True Positive(TP) : True라고 예측하고 True 결과값을 얻음 (맞음)**  
+>    *ex) 스팸으로 예측하여(T) 스팸함에 넣었는데 진짜로 스팸이었다(T)*  
+>  * **False Positive(FP) : True라고 예측하고 False 결과값을 얻음 (틀림)**  
+>    *ex) 스팸으로 예측하여(T) 스팸함에 넣엇는데 스팸이 아니었다(F)*  
+>  * **True Negative(TN) : False라고 예측하고 False 결과값을 얻음 (맞음)**  
+>    *ex) 스팸이 아니라고 예측하여(F) 받은 메일함에 넣엇는데 스팸이 아니었다(F)*  
+>  * **False Negative(FN) : False라고 예측하고 True 결과값을 얻음 (틀림)**  
+>    *ex) 스팸이 아니라고 예측하여(F) 받은 메일함에 넣엇는데 스팸이었다(T)*  
+
+![참고그림](https://charsyam.files.wordpress.com/2017/04/table.png?w=776)
 
 * Accuracy(정확도)  
   - TP+TN / TP+TN+FP+FN  
