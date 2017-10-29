@@ -27,7 +27,7 @@ machine learning is...
 #### <참고자료>
 * [SVM에 대한 자세한 내용](https://ko.wikipedia.org/wiki/%EC%84%9C%ED%8F%AC%ED%8A%B8_%EB%B2%A1%ED%84%B0_%EB%A8%B8%EC%8B%A0) (참고:[평면의 방정식](http://showmiso.tistory.com/62))
 * [SVM 강의](https://www.youtube.com/watch?v=_PwhiWxHK8o) (19분까지는 margin을 수학적으로 구하는 방법, 그 이후로는 초평면을 찾는 과정)
-* 머신러닝의 모델 성능에 대한 지표로 accuracy, precision, recall, f1-score, support 가 사용된다.
+* 머신러닝의 모델 성능에 대한 지표로 accuracy, precision, recall, f1-score, support 가 사용된다.  
 
 >TERMS:
 >  * **True Positive(TP) : True라고 예측하고 True 결과값을 얻음 (맞음)**  
