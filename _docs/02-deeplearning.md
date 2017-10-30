@@ -22,3 +22,6 @@ redirect_from:
 - [ ] cross entropy ?
 - [ ] Steepest descent method ( 경사하강법 ) ?
 - [ ] 합성곱층, 풀링층, 전결합층의 차이 ?
+
+## perceptron
+{% raw %}![alt]({{ site.url }}{{ site.baseurl }}/assets/images/perceptron.png){% endraw %}
