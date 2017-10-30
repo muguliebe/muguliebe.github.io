@@ -14,4 +14,5 @@ redirect_from:
    - 신경망을 3개 이상 중첩 => Deep Neural Network
 
 ## question
-- [ ] normalization
+- [ ] normalization 의 디테일한 이유?
+- [ ] softmax 회귀론?
