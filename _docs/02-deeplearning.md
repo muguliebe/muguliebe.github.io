@@ -16,3 +16,4 @@ redirect_from:
 ## question
 - [ ] normalization 의 디테일한 이유?
 - [ ] softmax 회귀론?
+- [ ] cross entropy ?
