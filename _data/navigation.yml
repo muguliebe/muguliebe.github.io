@@ -13,5 +13,9 @@ docs:
     children:
       - title: "dl"
         url: /docs/ai/dl/
+  - title: NLP
+    children:
+      - title: "nlp"
+        url: /docs/ai/nlp/
 
 
