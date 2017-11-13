@@ -15,7 +15,7 @@ docs:
         url: /docs/ai/dl/
         children:
           - title: "perceptron"
-          url: /docs/ai/dl/perceptron
+            url: /docs/ai/dl/perceptron
   - title: NLP
     children:
       - title: "nlp"
