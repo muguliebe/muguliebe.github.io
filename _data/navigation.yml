@@ -11,11 +11,10 @@ docs:
         url: /docs/ai/ml/
   - title: Deep Learning
     children:
-      - title: "dl"
+      - title: "Introduce"
         url: /docs/ai/dl/
-        children:
-          - title: "perceptron"
-            url: /docs/ai/dl/perceptron
+      - title: "Perceptron"
+        url: /docs/ai/dl/perceptron
   - title: NLP
     children:
       - title: "nlp"
