@@ -18,3 +18,29 @@ redirect_from:
 - 뉴런에서 보내온 신호의 총합이 정해진 한계를 넘어설 때만 1을 출력
 - 그 한계를 임계값(θ) 이라 한다
 
+### AND 회로
+- before bias
+```python
+def AND(x1, x2):
+    w1, w2, theta = 0.5, 0.5, 0.7
+    tmp = x1*w1 + x2*w2
+    if tmp <= theta:
+        return 0
+    elif tmp > theta:
+        return 1
+```
+
+- after bias
+![alt](http://muguliebe.github.io/assets/images/perceptron/fig2-1.png)
+```python
+def AND(x1, x2):
+    x = np.array([x1, x2])
+    w = np.array([0.5, 0.5])
+    b = -0.7
+    tmp = np.sum(w*x) + b
+    if tmp <= 0:
+        return 0
+    else:
+        return 1
+```
+
