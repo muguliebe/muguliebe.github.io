@@ -15,6 +15,8 @@ machine learning is...
 - Unsupervised learning
 - Reinforcement learning
 
+<!-- more -->
+
 ### 흐름
 1. 데이터 수집
 1. 데이터 가공

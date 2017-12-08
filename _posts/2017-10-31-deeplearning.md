@@ -16,6 +16,7 @@ tags:
 - Convolutional Neural Network: CNN
    - 입력층과 출력층 사이의 중간층에 합성곱층과 풀링층을 배치
 
+<!-- more -->
 
 ### question
 - [ ] normalization 의 디테일한 이유?
