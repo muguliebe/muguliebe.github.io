@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Deep Learning"
-date: 2017-10-30
+date: 2017-10-31
 categories: AI
 tags:
 - machine learning
