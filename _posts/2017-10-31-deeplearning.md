@@ -3,6 +3,7 @@ layout: post
 title: "Deep Learning"
 date: 2017-10-31
 categories: AI
+comments: true
 tags:
 - machine learning
 - deep learning
@@ -80,3 +81,6 @@ def AND(x1, x2):
 ### 확률적 경사 하강법 (stochastic gradient discent, SGD)
 데이터를 미니배치로 무작위로 선정하기 때문에 SGD 라고 부름
 * stochastic = 확률적
+
+{% if page.comments %}
+{% endif %}
