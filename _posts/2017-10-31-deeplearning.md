@@ -5,6 +5,7 @@ date: 2017-10-30
 categories: AI
 tags:
 - machine learning
+- deep learning
 ---
 
 ## Introduce
