@@ -19,13 +19,6 @@ tags:
 
 <!-- more -->
 
-### question
-- [ ] normalization 의 디테일한 이유?
-- [ ] softmax 회귀론?
-- [ ] cross entropy ?
-- [ ] Steepest descent method ( 경사하강법 ) ?
-- [ ] 합성곱층, 풀링층, 전결합층의 차이 ?
-
 ## perceptron
 ![alt](http://muguliebe.github.io/assets/images/blog/perceptron.png)
 
