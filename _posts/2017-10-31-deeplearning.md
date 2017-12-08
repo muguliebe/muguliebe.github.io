@@ -51,7 +51,7 @@ def AND(x1, x2):
 ```
 
 - after bias
-![alt](http://muguliebe.github.io/assets/images/perceptron/e2.2.png)
+![alt](http://muguliebe.github.io/assets/images/blog/perceptron/e2.2.png)
 ```python
 def AND(x1, x2):
     x = np.array([x1, x2])
