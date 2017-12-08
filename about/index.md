@@ -4,6 +4,6 @@ layout: page
 ---
 
 ## zany
-- software engineer in [SK C&C](http://skccblog.tistory.com)
+- software engineer at [SK C&C](http://skccblog.tistory.com)
 
 
