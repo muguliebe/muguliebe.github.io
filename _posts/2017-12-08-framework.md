@@ -25,6 +25,7 @@ tags:
     - 온라인, 배치로 나누어 각각의 아키텍쳐 명세가 필요
     - Application 은 Process(프로세스 진입), Service(비즈니스 로직), DAO(DB접근) 로 구분
     - Service Context 레벨에서의 공통변수 영역과 업무별 전/후처리 관리
+      - Business Source에서 공통벼수 가져다 쓸 수 있도록 유틸리티화
     - System 레벨에서의 트랜잭션 관리, 캐쉬, 거래내역, 로그, 전/후처리 관리
 
 ### Persistence: DB 와의 연계 명세
@@ -42,13 +43,15 @@ tags:
 ## Request 에 대한 전, 후처리 기능
 ### 전처리
 - 공통영역 변수 조립: 사용자정보, IP,URL 등
-
 ### 후처리
 - 거래내역 저장
 - 에러처리: 에러구분에 따른 HTTP 응답 코드 셋팅
 
 # Logging
+-
+
 # Monitoring
+-
 
 {% if page.comments %}
 {% endif %}
