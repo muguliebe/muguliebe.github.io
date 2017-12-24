@@ -78,6 +78,7 @@ JDK 설치하고, IDE 하나 깔고, Maven 이나 Gradle 둘 중 하나 설치�
    - [spring-boot-cli-1.5.9.RELEASE-bin.zip](https://repo.spring.io/release/org/springframework/boot/spring-boot-cli/1.5.9.RELEASE/spring-boot-cli-1.5.9.RELEASE-bin.zip)
 
 ---
+
 # 포스트에서의 개발환경 기준 
   - JDK: 1.8
   - IDE: IntelliJ
@@ -102,7 +103,7 @@ JDK 설치하고, IDE 하나 깔고, Maven 이나 Gradle 둘 중 하나 설치�
 
 ---
 
-# Spring Boot 에서의 Bean
+# Spring Boot 에 로드 된 모든 Bean 확인
   ```java
   ConfigurableApplicationContext ctx = SpringApplication.run(AppMain.class, args);
 
@@ -112,10 +113,10 @@ JDK 설치하고, IDE 하나 깔고, Maven 이나 Gradle 둘 중 하나 설치�
   ```
 
 # 기본 어노테이션
-RestController, Service,
+RestController, Service
 - @RestController
   - 클래스 및 메소드에 특정 URL 에 해당하는 서비스 진입점을 지정
-  - @Controller 에서 Restful API 가 등장하면서 생김
+  - @Controller 라는 어노테이션이 쓰였으나 Restful API 가 등장하면서 @RestController 가 생김
     - @Controller 와 다른점은, Return Type 을 자바 어느 객체로든 지정할 수 있으며, JSON 으로 변환하여 줌
 
 - @Service
