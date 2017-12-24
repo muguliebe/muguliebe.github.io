@@ -20,7 +20,7 @@ JDK 설치하고, IDE 하나 깔고, Maven 이나 Gradle 둘 중 하나 설치�
 
 ## IDE
 - Eclipse 와 IntelliJ 가 대표
-- IntelliJ 의 경우 무료, 유료 버젼이 나뉘지만 무료버젼으로 충분히 가능
+- IntelliJ 의 경우 무료(Community), 유료(Pro) 버젼이 나뉘지만 무료버젼으로 부족한 부분 없음
 
 ## 빌드 및 의존성 관리
 - maven 과 gradle 이 대표
@@ -74,8 +74,14 @@ JDK 설치하고, IDE 하나 깔고, Maven 이나 Gradle 둘 중 하나 설치�
    ```bash
    spring init -d=web,thymeleaf,data-jpa,h2 --groupId=com.test --artifactId=st-spring --name="AppMain" --package-name=com.test --description="Spring Boot Study" --build gradle st-spring
    ```
-   - [스프링가이드](https://repo.spring.io/release/org/springframework/boot/spring-boot-cli/1.5.9.RELEASE/spring-boot-cli-1.5.9.RELEASE-bin.zip) 에서 다운로드 파일 제공
+   - [스프링가이드](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-installing-spring-boot.html) 에서 Spring CLI 다운로드 파일 제공
    - [spring-boot-cli-1.5.9.RELEASE-bin.zip](https://repo.spring.io/release/org/springframework/boot/spring-boot-cli/1.5.9.RELEASE/spring-boot-cli-1.5.9.RELEASE-bin.zip)
+
+---
+# 포스트에서의 개발환경 기준 
+  - JDK: 1.8
+  - IDE: IntelliJ
+  - Dependency Management: Gradle
 
 ---
 
