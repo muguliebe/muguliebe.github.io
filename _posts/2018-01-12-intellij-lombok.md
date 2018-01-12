@@ -11,7 +11,7 @@ tags:
 ---
 
 # Introduction
-Lombok 사용 시 IntelliJ 셋팅 ( lombok 사용법이 아님 :wink: )
+Lombok 사용 시 IntelliJ 셋팅 ( lombok 사용법이 아님 )
 
 <!-- more -->
 
