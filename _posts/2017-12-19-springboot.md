@@ -9,7 +9,7 @@ tags:
 ---
 
 # Introduction
-스프링 부트 스터디
+스프링 부트 가이드
 
 <!-- more -->
 
@@ -17,6 +17,11 @@ tags:
 
 # 개발환경
 JDK 설치하고, IDE 하나 깔고, Maven 이나 Gradle 둘 중 하나 설치하면 됨
+
+## 포스트에서의 개발환경 기준 
+  - JDK: 1.8
+  - IDE: IntelliJ
+  - Dependency Management: Gradle
 
 ## IDE
 - Eclipse 와 IntelliJ 가 대표
@@ -67,22 +72,15 @@ JDK 설치하고, IDE 하나 깔고, Maven 이나 Gradle 둘 중 하나 설치�
 ## 프로젝트 와꾸 잡는 네 가지 방법
 1. gradle, maven 명령어로 초기화하고 알아서 소스 구조 잡는 방법
 1. IDE 에서 제공하는 스프링 프로젝트 생성
-1. Spring Initizlir (스프링 부트 프로젝트 소스 와꾸를 잡아주는 tool) 로 셋팅
+1. Spring Initizlizr (스프링 부트 프로젝트 소스 와꾸를 잡아주는 tool) 로 셋팅
    1. https://start.spring.io/ 에서 필요한 환경을 선택하여 다운로드 하면 zip 파일로 다운로드, 압축해제 하는 방법
-      ![](https://muguliebe.github.io/assets/images/blog/spring/springInitializr.jpg)
+      ![](/assets/images/blog/spring/springInitializr.jpg)
    1. Spring CLI 를 설치하여 아래와 같이 스크립트 수행하여 generation 하는 방법
    ```bash
    spring init -d=web,thymeleaf,data-jpa,h2 --groupId=com.test --artifactId=st-spring --name="AppMain" --package-name=com.test --description="Spring Boot Study" --build gradle st-spring
    ```
    - [스프링가이드](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-installing-spring-boot.html) 에서 Spring CLI 다운로드 파일 제공
    - [spring-boot-cli-1.5.9.RELEASE-bin.zip](https://repo.spring.io/release/org/springframework/boot/spring-boot-cli/1.5.9.RELEASE/spring-boot-cli-1.5.9.RELEASE-bin.zip)
-
----
-
-# 포스트에서의 개발환경 기준 
-  - JDK: 1.8
-  - IDE: IntelliJ
-  - Dependency Management: Gradle
 
 ---
 

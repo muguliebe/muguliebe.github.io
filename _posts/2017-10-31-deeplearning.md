@@ -21,7 +21,7 @@ tags:
 <!-- more -->
 
 ## perceptron
-![alt](http://muguliebe.github.io/assets/images/blog/perceptron.png)
+![alt](/assets/images/blog/perceptron.png)
 
 - 1957년에 프랑크 로젠블라트(Frank Rosenblatt) 가 제안
 - 신경망(딥러닝)의 기원이 되는 알고리즘
@@ -47,7 +47,7 @@ def AND(x1, x2):
 ```
 
 - after bias
-![alt](http://muguliebe.github.io/assets/images/blog/perceptron/e2.2.png)
+![alt](/assets/images/blog/perceptron/e2.2.png)
 ```python
 def AND(x1, x2):
     x = np.array([x1, x2])
