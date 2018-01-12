@@ -74,7 +74,7 @@ JDK 설치, IDE 설치, Maven 이나 Gradle 둘 중 하나 설치
 1. IDE 에서 제공하는 스프링 프로젝트 생성
 1. Spring Initizlizr (스프링 부트 프로젝트 소스 와꾸를 잡아주는 tool) 로 셋팅
    1. https://start.spring.io/ 에서 필요한 환경을 선택하여 다운로드 하면 zip 파일로 다운로드, 압축해제 하는 방법
-      ![](http://muguliebe.github.io/assets/images/blog/spring/springInitializr.jpg)
+      ![](/assets/images/blog/spring/springInitializr.jpg)
    1. Spring CLI 를 설치하여 아래와 같이 스크립트 수행하여 generation 하는 방법
    ```bash
    spring init -d=web,thymeleaf,data-jpa,h2 --groupId=com.test --artifactId=st-spring --name="AppMain" --package-name=com.test --description="Spring Boot Study" --build gradle st-spring
