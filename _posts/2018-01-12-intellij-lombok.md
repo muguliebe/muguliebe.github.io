@@ -32,7 +32,7 @@ Lombok 사용 시 IntelliJ 셋팅 ( lombok 사용법이 아님 )
 > Find Action > Registry 검색 > compiler.automake.allow.when.app.running 활성화   
 
 ![](http://muguliebe.github.io/assets/images/blog/180102/intellij-registry-findaction.png)
-![](http://muguliebe.github.io/assets/images/blog/180102/intellij-registry-compile.png)
+![](/assets/images/blog/180102/intellij-registry-compile.png)
 
 # Gradle Dependency 추가
 - gradle
